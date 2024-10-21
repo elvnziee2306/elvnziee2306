@@ -1,0 +1,48 @@
+body{
+    font-family:
+Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: rgb(243, 136, 195);
+color :rgb(243, 136, 195);
+transition: background-color 0.3,color 0.3s;
+}
+header {
+    background-color: #333;
+    color:rgb(243, 136, 195);
+    padding:10px;
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#toggle-theme {
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.dark-mode {
+     background-color: rgb(243, 136, 195);
+     color:black;
+}
+
+.dark-mode header {
+    background-color: rgb(243, 136, 195);
+}
+
+.dark-mode a {
+    color:rgb(243, 136, 195)
+}
